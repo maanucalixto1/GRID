@@ -37,5 +37,36 @@ footer{
         grid-template-columns: auto;
         grid-template-rows: 150px 50px 500px 200px;
     }
-    
+}
+
+.mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: yellow 2px solid;
+    background-color: blueviolet;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.img_card{
+    width: 300px;
+    height: auto;
+}
+
+.texto_card{
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.preco_card{
+    color: cyan;
+    font-size: xx-large;
 }
