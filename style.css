@@ -29,13 +29,16 @@ footer{
 
 }
 
-@media only screen and (max-width){
+@media only screen and (max-width: 800px){
     body{
         grid-area: "cabeça"
                    "corpo"
                    "perna";
         grid-template-columns: auto;
-        grid-template-rows: 150px 50px 500px 200px;
+        grid-template-rows: 150px auto 200px;
+    }
+    aside{
+        display: none;
     }
 }
 
